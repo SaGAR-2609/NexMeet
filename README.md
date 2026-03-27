@@ -1,1 +1,1 @@
-# Meetify
+# NexMeet
