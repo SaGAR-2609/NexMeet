@@ -322,7 +322,7 @@ export default function VideoMeetComponent() {
                         }
                     };
 
-                    // Add the local video stream
+                    // Add the local video streamn
                     if (window.localStream !== undefined && window.localStream !== null) {
                         connections[socketListId].addStream(window.localStream)
                     } else {
@@ -381,7 +381,7 @@ export default function VideoMeetComponent() {
         if (screen !== undefined) {
             getDislayMedia();
         }
-    }, [screen])
+    }, [screen]);
     let handleScreen = () => {
         setScreen(!screen);
     }

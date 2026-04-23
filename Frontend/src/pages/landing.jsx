@@ -13,27 +13,27 @@ export default function LandingPage() {
                     <h2>NexMeet</h2>
                 </div>
                 <div className='navlist'>
-                    <p onClick={() => {
+                    <h4 onClick={() => {
                         router("/aljk237")
-                    }}>Join as Guest</p>
-                    <p onClick={() => {
+                    }}>Join as Guest</h4>
+                    <h4 onClick={() => {
                         router("/auth")
 
-                    }}>Register</p>
+                    }}>Register</h4>
                     <div onClick={() => {
                         router("/auth")
 
                     }} role='button'>
-                        <p>Login</p>
+                        <h4>Login</h4>
                     </div>
                 </div>
             </nav>
 
             <div className="landingMainContainer">
                 <div>
-                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
-
-                    <p>Cover a distance by NexMeet</p>
+                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with Strangers like in real world</h1>
+                    <br></br>
+                    <p>Meet New People over a Video-Call</p>
                     <div role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
